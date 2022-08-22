@@ -11,7 +11,9 @@ local FluxLib = Instance.new("ScreenGui")
 FluxLib.Name = "Volkthanx_FLUXUI"
 FluxLib.Parent = game.CoreGui
 FluxLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
+if game.CoreGui:FindFirstChild('Volkthanx_FLUXUI') then
+	game.CoreGui:FindFirstChild('Volkthanx_FLUXUI'):Destroy()
+end
 coroutine.wrap(
 	function()
 		while wait() do
