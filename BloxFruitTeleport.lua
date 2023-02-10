@@ -5,8 +5,6 @@ return function (...)
     if not BF then return; end
 
     repeat wait() until game:IsLoaded()
-    repeat wait() until game:GetService("ReplicatedStorage"):FindFirstChild("Remotes")
-    repeat wait() until game:GetService("ReplicatedStorage"):FindFirstChild("Remotes"):FindFirstChild("CommF_")
 
     local JoinServer = (function () 
             return {
