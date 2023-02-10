@@ -18,6 +18,7 @@ end)();
 
 if BF then 
     local args = {...}
+    print(type(args[1]), type(args[2]))
     if type(args[1]) ~= "string" and type(args[2]) ~= "number" then return; end
     if game.PlaceId ~= args[2] then 
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(JoinServer[args[2]])
