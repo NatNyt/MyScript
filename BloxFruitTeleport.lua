@@ -1,4 +1,4 @@
-return function (...) 
+return (function (...) 
     if game.PlaceId == 2753915549 or  game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
         BF = true
     end
@@ -38,4 +38,4 @@ return function (...)
         return;
     end
     
-end
+end)(...)
