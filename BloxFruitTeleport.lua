@@ -14,6 +14,7 @@ end)();
 
 if BF then 
 	local args = ({...})
+	print(unpack(args))
 	if type(args[1]) ~= "string" and type(args[2]) ~= "number" then return; end
 	if game.PlaceId ~= args[2] then 
 		game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
