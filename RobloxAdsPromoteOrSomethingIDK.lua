@@ -48,7 +48,12 @@ ImageLabel.Parent = Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.Position = UDim2.new(0.0362563208, 0, 0.0710723177, 0)
 ImageLabel.Size = UDim2.new(0.330522776, 0, 0.814214468, 0)
-ImageLabel.Image = getAssets("Promotes.png")
+
+if syn then
+	ImageLabel.Image = getsynasset("Promotes.png")
+else
+	ImageLabel.Image = getcustomasset("Promotes.png")
+end
 
 wait(15)
 
