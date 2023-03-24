@@ -1,8 +1,33 @@
 repeat wait() until game:IsLoaded()
 repeat wait() until game:GetService("CoreGui")
+
+local function HttpRequest(...) 
+    local args = {...}
+    local status, result = pcall(function() 
+        if syn then 
+            if syn.request then 
+                return syn.request
+            end
+        end
+        if http then 
+            if http.request then 
+                return http.request
+            end
+        end
+        if request then  
+            return request
+        end
+    end) 
+    if status then 
+        return result(args[1])
+    end
+    if not status then
+        return request(args[1])
+    end
+end
+
 if not isfile("Promotes.png") then
-	local request = (syn and syn.request) or request or (http and http.request) or http_request
-	writefile("Promotes.png", http.request({Url = "https://media.discordapp.net/attachments/956447972290334751/1088785624393330718/Untitled.png", Method = "GET"}).Body)
+	writefile("Promotes.png", HttpRequest({Url = "https://media.discordapp.net/attachments/956447972290334751/1088785624393330718/Untitled.png", Method = "GET"}).Body)
 end
 
 local getAssets = getsynasset or getcustomasset
