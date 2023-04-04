@@ -11,7 +11,8 @@ task.spawn(function()
 end)
 
 repeat task.wait() until game:GetService("Players").LocalPlayer
-repeat task.wait() until game:GetService("Players").LocalPlayer.PlayerGui.Main
+repeat task.wait() until game:GetService("Players").LocalPlayer:FindFirstChild("PlayerGui")
+repeat task.wait() until game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("Main")
 
 if not  getgenv().SelectTeam  then
    return; 
