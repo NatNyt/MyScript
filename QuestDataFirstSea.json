@@ -1,0 +1,416 @@
+{
+  "Royal Squad [Lv. 525]": {
+    "CurrentIndex": 3,
+    "MinLevel": 50,
+    "MaxLevel": 75,
+    "Quest": {
+      "QuestName": "JungleQuest",
+      "QuestData": 1,
+      "QuestNameMenu": "Monkey",
+      "Pos": {
+        "Y": 210.74159240722656,
+        "X": -3205.336669921875,
+        "Z": 2114.859619140625
+      }
+    },
+    "Enemies": {
+      "Name": "Royal Squad [Lv. 525]",
+      "Pos": {
+        "Y": 5628.39111328125,
+        "X": -7579.4228515625,
+        "Z": -1540.750732421875
+      }
+    }
+  },
+  "Military Soldier [Lv. 300]": {
+    "CurrentIndex": 11,
+    "MinLevel": 300,
+    "MaxLevel": 325,
+    "Quest": {
+      "QuestName": "MagmaQuest",
+      "QuestData": 1,
+      "QuestNameMenu": "Military Soldier",
+      "Pos": {
+        "Y": 12.23698902130127,
+        "X": -5316.3388671875,
+        "Z": 8517.6728515625
+      }
+    },
+    "Enemies": {
+      "Name": "Military Soldier [Lv. 300]",
+      "Pos": {
+        "Y": 10.925516128540039,
+        "X": -5419.0751953125,
+        "Z": 8464.5048828125
+      }
+    }
+  },
+  "God's Guard [Lv. 450]": {
+    "CurrentIndex": 15,
+    "MinLevel": 450,
+    "MaxLevel": 475,
+    "Quest": {
+      "QuestName": "SkyExp1Quest",
+      "QuestData": 1,
+      "QuestNameMenu": "God's Guard",
+      "Pos": {
+        "Y": 845.2771606445312,
+        "X": -4721.28369140625,
+        "Z": -1954.9515380859375
+      }
+    },
+    "Enemies": {
+      "Name": "God's Guard [Lv. 450]",
+      "Pos": {
+        "Y": 866.9029541015625,
+        "X": -4630.00634765625,
+        "Z": -1936.7633056640625
+      }
+    }
+  },
+  "Fishman Warrior [Lv. 375]": {
+    "CurrentIndex": 13,
+    "MinLevel": 375,
+    "MaxLevel": 400,
+    "Quest": {
+      "QuestName": "FishmanQuest",
+      "QuestData": 1,
+      "QuestNameMenu": "Fishman Warrior",
+      "Pos": {
+        "Y": 18.471637725830078,
+        "X": 61122.2421875,
+        "Z": 1568.8477783203125
+      }
+    },
+    "Enemies": {
+      "Name": "Fishman Warrior [Lv. 375]",
+      "Pos": {
+        "Y": 18.48282241821289,
+        "X": 60898.04296875,
+        "Z": 1550.9906005859375
+      }
+    }
+  },
+  "Fishman Commando [Lv. 400]": {
+    "CurrentIndex": 14,
+    "MinLevel": 400,
+    "MaxLevel": 425,
+    "Quest": {
+      "QuestName": "FishmanQuest",
+      "QuestData": 2,
+      "QuestNameMenu": "Fishman Commando",
+      "Pos": {
+        "Y": 18.471637725830078,
+        "X": 61122.2421875,
+        "Z": 1568.8477783203125
+      }
+    },
+    "Enemies": {
+      "Name": "Fishman Commando [Lv. 400]",
+      "Pos": {
+        "Y": 18.48282241821289,
+        "X": 61885.40625,
+        "Z": 1500.3719482421875
+      }
+    }
+  },
+  "Military Spy [Lv. 325]": {
+    "CurrentIndex": 12,
+    "MinLevel": 325,
+    "MaxLevel": 350,
+    "Quest": {
+      "QuestName": "MagmaQuest",
+      "QuestData": 2,
+      "QuestNameMenu": "Military Spy",
+      "Pos": {
+        "Y": 12.23698902130127,
+        "X": -5316.3388671875,
+        "Z": 8517.6728515625
+      }
+    },
+    "Enemies": {
+      "Name": "Military Spy [Lv. 325]",
+      "Pos": {
+        "Y": 99.5276107788086,
+        "X": -5805.42041015625,
+        "Z": 8782.3671875
+      }
+    }
+  },
+  "Sky Bandit [Lv. 150]": {
+    "CurrentIndex": 5,
+    "MinLevel": 150,
+    "MaxLevel": 175,
+    "Quest": {
+      "QuestName": "SkyQuest",
+      "QuestData": 1,
+      "QuestNameMenu": "Sky Bandit",
+      "Pos": {
+        "Y": 717.6696166992188,
+        "X": -4843.2041015625,
+        "Z": -2623.131591796875
+      }
+    },
+    "Enemies": {
+      "Name": "Sky Bandit [Lv. 150]",
+      "Pos": {
+        "Y": 294.5443420410156,
+        "X": -4970.7421875,
+        "Z": -2890.113525390625
+      }
+    }
+  },
+  "Toga Warrior [Lv. 250]": {
+    "CurrentIndex": 9,
+    "MinLevel": 250,
+    "MaxLevel": 275,
+    "Quest": {
+      "QuestName": "ColosseumQuest",
+      "QuestData": 1,
+      "QuestNameMenu": "Toga Warrior",
+      "Pos": {
+        "Y": 7.389336585998535,
+        "X": -1575.7296142578125,
+        "Z": -2983.39453125
+      }
+    },
+    "Enemies": {
+      "Name": "Toga Warrior [Lv. 250]",
+      "Pos": {
+        "Y": 7.289071083068848,
+        "X": -1819.1241455078125,
+        "Z": -2744.025390625
+      }
+    }
+  },
+  "Dark Master [Lv. 175]": {
+    "CurrentIndex": 6,
+    "MinLevel": 175,
+    "MaxLevel": 200,
+    "Quest": {
+      "QuestName": "SkyQuest",
+      "QuestData": 2,
+      "QuestNameMenu": "Dark Master",
+      "Pos": {
+        "Y": 717.6696166992188,
+        "X": -4843.2041015625,
+        "Z": -2623.131591796875
+      }
+    },
+    "Enemies": {
+      "Name": "Dark Master [Lv. 175]",
+      "Pos": {
+        "Y": 392.21710205078125,
+        "X": -5239.9462890625,
+        "Z": -2208.183349609375
+      }
+    }
+  },
+  "Shanda [Lv. 475]": {
+    "CurrentIndex": 16,
+    "MinLevel": 475,
+    "MaxLevel": 500,
+    "Quest": {
+      "QuestName": "SkyExp1Quest",
+      "QuestData": 2,
+      "QuestNameMenu": "Shanda",
+      "Pos": {
+        "Y": 5545.4931640625,
+        "X": -7861.79736328125,
+        "Z": -379.9207763671875
+      }
+    },
+    "Enemies": {
+      "Name": "Shanda [Lv. 475]",
+      "Pos": {
+        "Y": 5607.36279296875,
+        "X": -7682.69775390625,
+        "Z": -445.69183349609375
+      }
+    }
+  },
+  "Galley Pirate [Lv. 625]": {
+    "CurrentIndex": 18,
+    "MinLevel": 625,
+    "MaxLevel": 650,
+    "Quest": {
+      "QuestName": "FountainQuest",
+      "QuestData": 1,
+      "QuestNameMenu": "Galley Pirate",
+      "Pos": {
+        "Y": 38.501136779785156,
+        "X": 5254.52734375,
+        "Z": 4049.80126953125
+      }
+    },
+    "Enemies": {
+      "Name": "Galley Pirate [Lv. 625]",
+      "Pos": {
+        "Y": 41.501365661621094,
+        "X": 5597.58935546875,
+        "Z": 3960.5537109375
+      }
+    }
+  },
+  "Prisoner [Lv. 190]": {
+    "CurrentIndex": 7,
+    "MinLevel": 200,
+    "MaxLevel": 225,
+    "Quest": {
+      "QuestName": "PrisonerQuest",
+      "QuestData": 1,
+      "QuestNameMenu": "Prisoner",
+      "Pos": {
+        "Y": 1.6809712648391724,
+        "X": 5307.95166015625,
+        "Z": 475.1698913574219
+      }
+    },
+    "Enemies": {
+      "Name": "Prisoner [Lv. 190]",
+      "Pos": {
+        "Y": 68.67806243896484,
+        "X": 5029.708984375,
+        "Z": 445.857177734375
+      }
+    }
+  },
+  "Royal Soldier [Lv. 550]": {
+    "CurrentIndex": 17,
+    "MinLevel": 550,
+    "MaxLevel": 575,
+    "Quest": {
+      "QuestName": "SkyExp2Quest",
+      "QuestData": 2,
+      "QuestNameMenu": "Royal Soldier",
+      "Pos": {
+        "Y": 5635.9638671875,
+        "X": -7902.232421875,
+        "Z": -1411.9674072265625
+      }
+    },
+    "Enemies": {
+      "Name": "Royal Soldier [Lv. 550]",
+      "Pos": {
+        "Y": 5681.36181640625,
+        "X": -7834.84716796875,
+        "Z": -1790.767822265625
+      }
+    }
+  },
+  "Monkey [Lv. 14]": {
+    "CurrentIndex": 2,
+    "MinLevel": 25,
+    "MaxLevel": 50,
+    "Quest": {
+      "QuestName": "JungleQuest",
+      "QuestData": 1,
+      "QuestNameMenu": "Monkey",
+      "Pos": {
+        "Y": 36.852134704589844,
+        "X": -1600.2435302734375,
+        "Z": 153.22479248046875
+      }
+    },
+    "Enemies": {
+      "Name": "Monkey [Lv. 14]",
+      "Pos": {
+        "Y": 39.85215759277344,
+        "X": -1609.712158203125,
+        "Z": 123.38467407226562
+      }
+    }
+  },
+  "Chief Petty Officer [Lv. 120]": {
+    "CurrentIndex": 4,
+    "MinLevel": 125,
+    "MaxLevel": 150,
+    "Quest": {
+      "QuestName": "MarineQuest2",
+      "QuestData": 1,
+      "QuestNameMenu": "Chief Petty Officer",
+      "Pos": {
+        "Y": 28.652034759521484,
+        "X": -5034.64892578125,
+        "Z": 4324.53369140625
+      }
+    },
+    "Enemies": {
+      "Name": "Chief Petty Officer [Lv. 120]",
+      "Pos": {
+        "Y": 22.652034759521484,
+        "X": -4863.61328125,
+        "Z": 4306.39306640625
+      }
+    }
+  },
+  "Gladiator [Lv. 275]": {
+    "CurrentIndex": 10,
+    "MinLevel": 275,
+    "MaxLevel": 300,
+    "Quest": {
+      "QuestName": "ColosseumQuest",
+      "QuestData": 2,
+      "QuestNameMenu": "Gladiator",
+      "Pos": {
+        "Y": 7.389336585998535,
+        "X": -1575.7296142578125,
+        "Z": -2983.39453125
+      }
+    },
+    "Enemies": {
+      "Name": "Gladiator [Lv. 275]",
+      "Pos": {
+        "Y": 7.442543983459473,
+        "X": -1334.76513671875,
+        "Z": -3228.905517578125
+      }
+    }
+  },
+  "Dangerous Prisoner [Lv. 210]": {
+    "CurrentIndex": 8,
+    "MinLevel": 225,
+    "MaxLevel": 250,
+    "Quest": {
+      "QuestName": "PrisonerQuest",
+      "QuestData": 2,
+      "QuestNameMenu": "Dangerous Prisoner",
+      "Pos": {
+        "Y": 1.6809712648391724,
+        "X": 5307.95166015625,
+        "Z": 475.1698913574219
+      }
+    },
+    "Enemies": {
+      "Name": "Dangerous Prisoner [Lv. 210]",
+      "Pos": {
+        "Y": 68.67866516113281,
+        "X": 5673.517578125,
+        "Z": 783.7576293945312
+      }
+    }
+  },
+  "Bandit [Lv. 5]": {
+    "CurrentIndex": 1,
+    "MinLevel": 0,
+    "MaxLevel": -9,
+    "Quest": {
+      "QuestName": "BanditQuest1",
+      "QuestData": 1,
+      "QuestNameMenu": "Bandit",
+      "Pos": {
+        "Y": 16.516618728637695,
+        "X": 1060.615478515625,
+        "Z": 1546.0634765625
+      }
+    },
+    "Enemies": {
+      "Name": "Bandit [Lv. 5]",
+      "Pos": {
+        "Y": 68.11956787109375,
+        "X": 1094.7415771484375,
+        "Z": 1617.9813232421875
+      }
+    }
+  }
+}
