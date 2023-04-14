@@ -2,7 +2,7 @@
   "Royal Squad [Lv. 525]": {
     "CurrentIndex": 3,
     "MinLevel": 25,
-    "MaxLevel": 75,
+    "MaxLevel": 125,
     "Quest": {
       "QuestName": "JungleQuest",
       "QuestData": 1,
