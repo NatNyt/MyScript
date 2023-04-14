@@ -301,7 +301,7 @@
   "Monkey [Lv. 14]": {
     "CurrentIndex": 2,
     "MinLevel": 10,
-    "MaxLevel": 15,
+    "MaxLevel": 25,
     "Quest": {
       "QuestName": "JungleQuest",
       "QuestData": 1,
