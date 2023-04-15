@@ -278,7 +278,7 @@
   "Royal Soldier [Lv. 550]": {
     "CurrentIndex": 17,
     "MinLevel": 550,
-    "MaxLevel": 575,
+    "MaxLevel": 625,
     "Quest": {
       "QuestName": "SkyExp2Quest",
       "QuestData": 2,
