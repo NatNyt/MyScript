@@ -243,12 +243,26 @@
         "Z": 4049.80126953125
       }
     },
-    "Enemies": {
-      "Name": "Galley Pirate [Lv. 625]",
+  "Galley Captain [Lv. 650]": {
+    "CurrentIndex": 19,
+    "MinLevel": 625,
+    "MaxLevel": 650,
+    "Quest": {
+      "QuestName": "FountainQuest",
+      "QuestData": 2,
+      "QuestNameMenu": "Galley Captain",
       "Pos": {
-        "Y": 41.501365661621094,
-        "X": 5597.58935546875,
-        "Z": 3960.5537109375
+        "Y": 38.501136779785156,
+        "X": 5254.52734375,
+        "Z": 4049.80126953125
+      }
+    },
+    "Enemies": {
+      "Name": "Galley Captain [Lv. 650]",
+      "Pos": {
+        "Y": 52.501365661621094,
+        "X": 5254.58935546875,
+        "Z": 4890.11035
       }
     }
   },
