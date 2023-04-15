@@ -22,6 +22,29 @@
       }
     }
   },
+"Royal Squad [Lv. 525]": {
+    "CurrentIndex": 3,
+    "MinLevel": 525,
+    "MaxLevel": 550,
+    "Quest": {
+      "QuestName": "SkyExp2Quest",
+      "QuestData": 1,
+      "QuestNameMenu": "Royal Soldier",
+      "Pos": {
+        "Y": 36.852134704589844,
+        "X": -1600.2435302734375,
+        "Z": 153.22479248046875
+      }
+    },
+    "Enemies": {
+      "Name": "Royal Squad [Lv. 525]",
+      "Pos": {
+        "Y": 5628.39111328125,
+        "X": -7579.4228515625,
+        "Z": -1540.750732421875
+      }
+    }
+  },
   "Military Soldier [Lv. 300]": {
     "CurrentIndex": 11,
     "MinLevel": 300,
