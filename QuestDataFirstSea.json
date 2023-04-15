@@ -94,7 +94,7 @@
   "Fishman Commando [Lv. 400]": {
     "CurrentIndex": 14,
     "MinLevel": 400,
-    "MaxLevel": 425,
+    "MaxLevel": 450,
     "Quest": {
       "QuestName": "FishmanQuest",
       "QuestData": 2,
