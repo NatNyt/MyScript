@@ -245,8 +245,8 @@
     },
   "Galley Captain [Lv. 650]": {
     "CurrentIndex": 19,
-    "MinLevel": 625,
-    "MaxLevel": 650,
+    "MinLevel": 650,
+    "MaxLevel": 999999,
     "Quest": {
       "QuestName": "FountainQuest",
       "QuestData": 2,
