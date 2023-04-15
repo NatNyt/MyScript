@@ -117,7 +117,7 @@
   "Military Spy [Lv. 325]": {
     "CurrentIndex": 12,
     "MinLevel": 325,
-    "MaxLevel": 350,
+    "MaxLevel": 375,
     "Quest": {
       "QuestName": "MagmaQuest",
       "QuestData": 2,
