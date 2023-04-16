@@ -209,7 +209,7 @@
   "Shanda [Lv. 475]": {
     "CurrentIndex": 16,
     "MinLevel": 475,
-    "MaxLevel": 500,
+    "MaxLevel": 525,
     "Quest": {
       "QuestName": "SkyExp1Quest",
       "QuestData": 2,
