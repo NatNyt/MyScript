@@ -280,6 +280,68 @@ function GetBossName()
 				BossName = "Cake Queen [Lv. 2175] [Boss]"
 			end 
 	end
+        for i,v in pairs(game.Workspace.Enemies:GetChildren()) do
+			-- World 1
+			if v.Name == "The Gorilla King [Lv. 25] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 20  then
+				BossName = "The Gorilla King [Lv. 25] [Boss]"
+			elseif v.Name == "Bobby [Lv. 55] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 55  then
+				BossName = "Bobby [Lv. 55] [Boss]" 
+			elseif v.Name == "Yeti [Lv. 110] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 105  then
+				BossName = "Yeti [Lv. 110] [Boss]"
+			elseif v.Name == "Mob Leader [Lv. 120] [Boss]"  and game.Players.localPlayer.Data.Level.Value >= 120 then
+				BossName = "Mob Leader [Lv. 120] [Boss]"
+			elseif v.Name == "Vice Admiral [Lv. 130] [Boss]"  and game.Players.localPlayer.Data.Level.Value >= 130 then
+				BossName = "Vice Admiral [Lv. 130] [Boss]"
+			elseif v.Name == "Warden [Lv. 175] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 175 then
+				BossName = "Warden [Lv. 175] [Boss]"
+			elseif v.Name == "Saber Expert [Lv. 200] [Boss]" and game.Workspace.Map.Jungle.Final.Part.Transparency == 1 then
+				BossName = "Saber Expert [Lv. 200] [Boss]"
+			elseif v.Name == "Chief Warden [Lv. 200] [Boss]"  and game.Players.localPlayer.Data.Level.Value >= 200 then
+				BossName = "Chief Warden [Lv. 200] [Boss]"
+			elseif v.Name == "Swan [Lv. 225] [Boss]"  and game.Players.localPlayer.Data.Level.Value >= 250 then
+				BossName = "Swan [Lv. 225] [Boss]"
+			elseif v.Name == "Magma Admiral [Lv. 350] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 350  then
+				BossName = "Magma Admiral [Lv. 350] [Boss]"
+			elseif v.Name == "Fishman Lord [Lv. 425] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 425  then
+				BossName = "Fishman Lord [Lv. 425] [Boss]"
+			elseif v.Name == "Wysper [Lv. 500] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 500 then
+				BossName = "Wysper [Lv. 500] [Boss]"
+			elseif v.Name == "Thunder God [Lv. 575] [Boss]"  and game.Players.localPlayer.Data.Level.Value >= 575 then
+				BossName = "Thunder God [Lv. 575] [Boss]"
+			elseif v.Name == "Cyborg [Lv. 675] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 675 then
+				BossName = "Cyborg [Lv. 675] [Boss]"
+				-- World2
+			elseif v.Name == "Diamond [Lv. 750] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 750 then
+				BossName = "Diamond [Lv. 750] [Boss]"
+			elseif v.Name == "Jeremy [Lv. 850] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 850 then
+				BossName = "Jeremy [Lv. 850] [Boss]"
+			elseif v.Name == "Fajita [Lv. 925] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 925  then
+				BossName = "Fajita [Lv. 925] [Boss]"
+			elseif v.Name == "Don Swan [Lv. 1000] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 1000 and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TalkTrevor","1") == 0 then
+				BossName = "Don Swan [Lv. 1000] [Boss]" 
+			elseif v.Name == "Smoke Admiral [Lv. 1150] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 1150 then
+				BossName = "Smoke Admiral [Lv. 1150] [Boss]"
+			elseif v.Name == "Cursed Captain [Lv. 1325] [Raid Boss]" and game.Players.localPlayer.Data.Level.Value >= 1325 then
+				BossName = "Cursed Captain [Lv. 1325] [Raid Boss]"
+			elseif v.Name == "Awakened Ice Admiral [Lv. 1400] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 1400  then
+				BossName = "Awakened Ice Admiral [Lv. 1400] [Boss]"
+			elseif v.Name == "Tide Keeper [Lv. 1475] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 1475  then
+				BossName = "Tide Keeper [Lv. 1475] [Boss]"
+				-- World3
+			elseif v.Name == "Stone [Lv. 1550] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 1550 then
+				BossName = "Stone [Lv. 1550] [Boss]"
+			elseif v.Name == "Island Empress [Lv. 1675] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 1675 then
+				BossName = "Island Empress [Lv. 1675] [Boss]"
+			elseif v.Name == "Kilo Admiral [Lv. 1750] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 1750 then
+				BossName = "Kilo Admiral [Lv. 1750] [Boss]"
+			elseif v.Name == "Captain Elephant [Lv. 1875] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 1875 then
+				BossName = "Captain Elephant [Lv. 1875] [Boss]"
+			elseif v.Name == "Beautiful Pirate [Lv. 1950] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 1950 then
+				BossName = "Beautiful Pirate [Lv. 1950] [Boss]"
+			elseif v.Name == "Cake Queen [Lv. 2175] [Boss]" and game.Players.localPlayer.Data.Level.Value >= 2175 then
+				BossName = "Cake Queen [Lv. 2175] [Boss]"
+			end 
+	end
 	return BossName
 end
 return GetBossName, CheckBossQuest
