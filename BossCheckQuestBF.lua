@@ -280,5 +280,6 @@ function GetBossName()
 				BossName = "Cake Queen [Lv. 2175] [Boss]"
 			end 
 	end
+	return BossName
 end
 return GetBossName, CheckBossQuest
