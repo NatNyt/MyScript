@@ -1,8 +1,8 @@
 {
     "Ship Engineer [Lv. 1275]": {
         "CurrentIndex": 15,
-        "MinLevel": 1049,
-        "MaxLevel": 1074,
+        "MinLevel": 1299,
+        "MaxLevel": 1324,
         "Quest": {
             "QuestName": "ShipQuest1",
             "QuestData": 2,
@@ -24,8 +24,8 @@
     },
     "Winter Warrior [Lv. 1050]": {
         "CurrentIndex": 9,
-        "MinLevel": 899,
-        "MaxLevel": 924,
+        "MinLevel": 1049,
+        "MaxLevel": 1074,
         "Quest": {
             "QuestName": "SnowMountainQuest",
             "QuestData": 2,
@@ -47,8 +47,8 @@
     },
     "Ship Deckhand [Lv. 1250]": {
         "CurrentIndex": 14,
-        "MinLevel": 1024,
-        "MaxLevel": 1049,
+        "MinLevel": 1249,
+        "MaxLevel": 1274,
         "Quest": {
             "QuestName": "ShipQuest1",
             "QuestData": 1,
@@ -93,8 +93,8 @@
     },
     "Swan Pirate [Lv. 775]": {
         "CurrentIndex": 3,
-        "MinLevel": 749,
-        "MaxLevel": 774,
+        "MinLevel": 774,
+        "MaxLevel": 799,
         "Quest": {
             "QuestName": "Area2Quest",
             "QuestData": 1,
@@ -116,8 +116,8 @@
     },
     "Marine Lieutenant [Lv. 875]": {
         "CurrentIndex": 4,
-        "MinLevel": 774,
-        "MaxLevel": 799,
+        "MinLevel": 824,
+        "MaxLevel": 849,
         "Quest": {
             "QuestName": "MarineQuest3",
             "QuestData": 1,
@@ -139,8 +139,8 @@
     },
     "Sea Soldier [Lv. 1425]": {
         "CurrentIndex": 20,
-        "MinLevel": 1174,
-        "MaxLevel": 1199,
+        "MinLevel": 1424,
+        "MaxLevel": 1449,
         "Quest": {
             "QuestName": "ForgottenQuest",
             "QuestData": 1,
@@ -162,8 +162,8 @@
     },
     "Zombie [Lv. 950]": {
         "CurrentIndex": 6,
-        "MinLevel": 824,
-        "MaxLevel": 849,
+        "MinLevel": 949,
+        "MaxLevel": 974,
         "Quest": {
             "QuestName": "ZombieQuest",
             "QuestData": 1,
@@ -185,8 +185,8 @@
     },
     "Ship Steward [Lv. 1300]": {
         "CurrentIndex": 16,
-        "MinLevel": 1074,
-        "MaxLevel": 1099,
+        "MinLevel": 1324,
+        "MaxLevel": 1349,
         "Quest": {
             "QuestName": "ShipQuest2",
             "QuestData": 1,
@@ -208,8 +208,8 @@
     },
     "Marine Captain [Lv. 900]": {
         "CurrentIndex": 5,
-        "MinLevel": 799,
-        "MaxLevel": 824,
+        "MinLevel": 924,
+        "MaxLevel": 949,
         "Quest": {
             "QuestName": "MarineQuest3",
             "QuestData": 2,
@@ -231,8 +231,8 @@
     },
     "Snow Lurker [Lv. 1375]": {
         "CurrentIndex": 19,
-        "MinLevel": 1149,
-        "MaxLevel": 1174,
+        "MinLevel": 1399,
+        "MaxLevel": 1424,
         "Quest": {
             "QuestName": "FrostQuest",
             "QuestData": 2,
@@ -254,8 +254,8 @@
     },
     "Arctic Warrior [Lv. 1350]": {
         "CurrentIndex": 18,
-        "MinLevel": 1124,
-        "MaxLevel": 1149,
+        "MinLevel": 1374,
+        "MaxLevel": 1399,
         "Quest": {
             "QuestName": "FrostQuest",
             "QuestData": 1,
@@ -277,8 +277,8 @@
     },
     "Lava Pirate [Lv. 1200]": {
         "CurrentIndex": 13,
-        "MinLevel": 999,
-        "MaxLevel": 1024,
+        "MinLevel": 1224,
+        "MaxLevel": 1249,
         "Quest": {
             "QuestName": "FireSideQuest",
             "QuestData": 2,
@@ -300,8 +300,8 @@
     },
     "Ship Officer [Lv. 1325]": {
         "CurrentIndex": 17,
-        "MinLevel": 1099,
-        "MaxLevel": 1124,
+        "MinLevel": 1349,
+        "MaxLevel": 1374,
         "Quest": {
             "QuestName": "ShipQuest2",
             "QuestData": 2,
@@ -323,8 +323,8 @@
     },
     "Lab Subordinate [Lv. 1100]": {
         "CurrentIndex": 10,
-        "MinLevel": 924,
-        "MaxLevel": 949,
+        "MinLevel": 1099,
+        "MaxLevel": 1124,
         "Quest": {
             "QuestName": "IceSideQuest",
             "QuestData": 1,
@@ -346,8 +346,8 @@
     },
     "Horned Warrior [Lv. 1125]": {
         "CurrentIndex": 11,
-        "MinLevel": 949,
-        "MaxLevel": 974,
+        "MinLevel": 1149,
+        "MaxLevel": 1174,
         "Quest": {
             "QuestName": "IceSideQuest",
             "QuestData": 2,
@@ -392,8 +392,8 @@
     },
     "Magma Ninja [Lv. 1175]": {
         "CurrentIndex": 12,
-        "MinLevel": 974,
-        "MaxLevel": 999,
+        "MinLevel": 1174,
+        "MaxLevel": 1199,
         "Quest": {
             "QuestName": "FireSideQuest",
             "QuestData": 1,
@@ -415,8 +415,8 @@
     },
     "Snow Trooper [Lv. 1000]": {
         "CurrentIndex": 8,
-        "MinLevel": 874,
-        "MaxLevel": 899,
+        "MinLevel": 1024,
+        "MaxLevel": 1049,
         "Quest": {
             "QuestName": "SnowMountainQuest",
             "QuestData": 1,
@@ -438,8 +438,8 @@
     },
     "Vampire [Lv. 975]": {
         "CurrentIndex": 7,
-        "MinLevel": 849,
-        "MaxLevel": 874,
+        "MinLevel": 999,
+        "MaxLevel": 1024,
         "Quest": {
             "QuestName": "ZombieQuest",
             "QuestData": 2,
