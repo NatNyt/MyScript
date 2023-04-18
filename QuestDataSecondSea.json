@@ -1,1 +1,462 @@
-{"Ship Engineer [Lv. 1275]":{"CurrentIndex":15,"MinLevel":1299,"MaxLevel":1324,"Quest":{"QuestName":"ShipQuest1","QuestData":2,"QuestNameMenu":"Ship Engineer","Pos":{"Y":125.05709838867188,"X":1038.674560546875,"Z":32911.34765625}},"Enemies":{"Name":"Ship Engineer [Lv. 1275]","Pos":{"Y":40.44286346435547,"X":862.9854125976563,"Z":32867.94921875}}},"Winter Warrior [Lv. 1050]":{"CurrentIndex":9,"MinLevel":1074,"MaxLevel":1099,"Quest":{"QuestName":"SnowMountainQuest","QuestData":2,"QuestNameMenu":"Winter Warrior","Pos":{"Y":401.4220275878906,"X":605.6705322265625,"Z":-5370.10107421875}},"Enemies":{"Name":"Winter Warrior [Lv. 1050]","Pos":{"Y":461.108154296875,"X":1240.86279296875,"Z":-5191.10400390625}}},"Ship Deckhand [Lv. 1250]":{"CurrentIndex":14,"MinLevel":1274,"MaxLevel":1299,"Quest":{"QuestName":"ShipQuest1","QuestData":1,"QuestNameMenu":"Ship Deckhand","Pos":{"Y":125.05709838867188,"X":1038.674560546875,"Z":32911.34765625}},"Enemies":{"Name":"Ship Deckhand [Lv. 1250]","Pos":{"Y":125.05711364746094,"X":1215.140625,"Z":33050.71875}}},"Mercenary [Lv. 725]":{"CurrentIndex":2,"MinLevel":749,"MaxLevel":774,"Quest":{"QuestName":"Area1Quest","QuestData":2,"QuestNameMenu":"Mercenary","Pos":{"Y":73.00558471679688,"X":-424.080078125,"Z":1836.9158935546876}},"Enemies":{"Name":"Mercenary [Lv. 725]","Pos":{"Y":80.95467376708985,"X":-938.497314453125,"Z":1443.986083984375}}},"Swan Pirate [Lv. 775]":{"CurrentIndex":3,"MinLevel":799,"MaxLevel":824,"Quest":{"QuestName":"Area2Quest","QuestData":1,"QuestNameMenu":"Swan Pirate","Pos":{"Y":73.1055908203125,"X":632.6986083984375,"Z":918.6663208007813}},"Enemies":{"Name":"Swan Pirate [Lv. 775]","Pos":{"Y":141.3094940185547,"X":967.2332763671875,"Z":1210.0638427734376}}},"Marine Lieutenant [Lv. 875]":{"CurrentIndex":4,"MinLevel":899,"MaxLevel":924,"Quest":{"QuestName":"MarineQuest3","QuestData":1,"QuestNameMenu":"Marine Lieutenant.","Pos":{"Y":73.01610565185547,"X":-2443.04638671875,"Z":-3220.30224609375}},"Enemies":{"Name":"Marine Lieutenant [Lv. 875]","Pos":{"Y":72.96614074707031,"X":-2967.007568359375,"Z":-2972.747802734375}}},"Sea Soldier [Lv. 1425]":{"CurrentIndex":20,"MinLevel":1449,"MaxLevel":1474,"Quest":{"QuestName":"ForgottenQuest","QuestData":1,"QuestNameMenu":"Sea Soldier","Pos":{"Y":236.84628295898438,"X":-3053.973388671875,"Z":-10146.1484375}},"Enemies":{"Name":"Sea Soldier [Lv. 1425]","Pos":{"Y":29.540367126464845,"X":-3026.54833984375,"Z":-9758.7431640625}}},"Zombie [Lv. 950]":{"CurrentIndex":6,"MinLevel":974,"MaxLevel":999,"Quest":{"QuestName":"ZombieQuest","QuestData":1,"QuestNameMenu":"Zombie","Pos":{"Y":48.515167236328128,"X":-5492.7939453125,"Z":-793.7105712890625}},"Enemies":{"Name":"Zombie [Lv. 950]","Pos":{"Y":126.03199768066406,"X":-5736.03515625,"Z":-728.0261840820313}}},"Ship Steward [Lv. 1300]":{"CurrentIndex":16,"MinLevel":1324,"MaxLevel":1349,"Quest":{"QuestName":"ShipQuest2","QuestData":1,"QuestNameMenu":"Ship Steward","Pos":{"Y":125.05712127685547,"X":969.268310546875,"Z":33245.26953125}},"Enemies":{"Name":"Ship Steward [Lv. 1300]","Pos":{"Y":129.5559844970703,"X":923.6115112304688,"Z":33442.3125}}},"Marine Captain [Lv. 900]":{"CurrentIndex":5,"MinLevel":924,"MaxLevel":949,"Quest":{"QuestName":"MarineQuest3","QuestData":2,"QuestNameMenu":"Marine Captain","Pos":{"Y":73.01610565185547,"X":-2443.04638671875,"Z":-3220.30224609375}},"Enemies":{"Name":"Marine Captain [Lv. 900]","Pos":{"Y":93.37608337402344,"X":-1818.364013671875,"Z":-3203.577880859375}}},"Snow Lurker [Lv. 1375]":{"CurrentIndex":19,"MinLevel":1399,"MaxLevel":1424,"Quest":{"QuestName":"FrostQuest","QuestData":2,"QuestNameMenu":"Snow Lurker","Pos":{"Y":28.21177864074707,"X":5669.43505859375,"Z":-6482.60107421875}},"Enemies":{"Name":"Snow Lurker [Lv. 1375]","Pos":{"Y":60.5209846496582,"X":5516.275390625,"Z":-6830.82763671875}}},"Arctic Warrior [Lv. 1350]":{"CurrentIndex":18,"MinLevel":1374,"MaxLevel":1399,"Quest":{"QuestName":"FrostQuest","QuestData":1,"QuestNameMenu":"Arctic Warrior","Pos":{"Y":28.21177864074707,"X":5669.43505859375,"Z":-6482.60107421875}},"Enemies":{"Name":"Arctic Warrior [Lv. 1350]","Pos":{"Y":57.072784423828128,"X":5995.92919921875,"Z":-6184.9892578125}}},"Lava Pirate [Lv. 1200]":{"CurrentIndex":13,"MinLevel":1224,"MaxLevel":1249,"Quest":{"QuestName":"FireSideQuest","QuestData":2,"QuestNameMenu":"Lava Pirate","Pos":{"Y":15.951759338378907,"X":-5429.68359375,"Z":-5296.7021484375}},"Enemies":{"Name":"Lava Pirate [Lv. 1200]","Pos":{"Y":16.148508071899415,"X":-5075.19580078125,"Z":-4814.361328125}}},"Ship Officer [Lv. 1325]":{"CurrentIndex":17,"MinLevel":1349,"MaxLevel":1374,"Quest":{"QuestName":"ShipQuest2","QuestData":2,"QuestNameMenu":"Ship Officer","Pos":{"Y":125.05712127685547,"X":969.268310546875,"Z":33245.26953125}},"Enemies":{"Name":"Ship Officer [Lv. 1325]","Pos":{"Y":181.0577392578125,"X":882.2755737304688,"Z":33354.1796875}}},"Lab Subordinate [Lv. 1100]":{"CurrentIndex":10,"MinLevel":1124,"MaxLevel":1149,"Quest":{"QuestName":"IceSideQuest","QuestData":1,"QuestNameMenu":"Lab Subordinate","Pos":{"Y":15.986802101135254,"X":-6060.10693359375,"Z":-4904.78759765625}},"Enemies":{"Name":"Lab Subordinate [Lv. 1100]","Pos":{"Y":48.43719482421875,"X":-5833.6337890625,"Z":-4510.44580078125}}},"Horned Warrior [Lv. 1125]":{"CurrentIndex":11,"MinLevel":1149,"MaxLevel":1174,"Quest":{"QuestName":"IceSideQuest","QuestData":2,"QuestNameMenu":"Horned Warrior","Pos":{"Y":15.986802101135254,"X":-6060.10693359375,"Z":-4904.78759765625}},"Enemies":{"Name":"Horned Warrior [Lv. 1125]","Pos":{"Y":42.7079963684082,"X":-6168.1591796875,"Z":-6020.96826171875}}},"Raider [Lv. 700]":{"CurrentIndex":1,"MinLevel":699,"MaxLevel":724,"Quest":{"QuestName":"Area1Quest","QuestData":1,"QuestNameMenu":"Raider","Pos":{"Y":73.00558471679688,"X":-424.080078125,"Z":1836.9158935546876}},"Enemies":{"Name":"Raider [Lv. 700]","Pos":{"Y":96.68450927734375,"X":-141.8724365234375,"Z":2491.015380859375}}},"Magma Ninja [Lv. 1175]":{"CurrentIndex":12,"MinLevel":1199,"MaxLevel":1224,"Quest":{"QuestName":"FireSideQuest","QuestData":1,"QuestNameMenu":"Magma Ninja","Pos":{"Y":15.951759338378907,"X":-5429.68359375,"Z":-5296.7021484375}},"Enemies":{"Name":"Magma Ninja [Lv. 1175]","Pos":{"Y":22.862367630004884,"X":-5404.8544921875,"Z":-5896.09033203125}}},"Snow Trooper [Lv. 1000]":{"CurrentIndex":8,"MinLevel":1024,"MaxLevel":1049,"Quest":{"QuestName":"SnowMountainQuest","QuestData":1,"QuestNameMenu":"Snow Trooper","Pos":{"Y":401.4220275878906,"X":605.6705322265625,"Z":-5370.10107421875}},"Enemies":{"Name":"Snow Trooper [Lv. 1000]","Pos":{"Y":401.4220275878906,"X":544.2079467773438,"Z":-5309.0888671875}}},"Vampire [Lv. 975]":{"CurrentIndex":7,"MinLevel":999,"MaxLevel":1024,"Quest":{"QuestName":"ZombieQuest","QuestData":2,"QuestNameMenu":"Vampire","Pos":{"Y":48.515167236328128,"X":-5492.7939453125,"Z":-793.7105712890625}},"Enemies":{"Name":"Vampire [Lv. 975]","Pos":{"Y":6.402701377868652,"X":-6028.23583984375,"Z":-1295.456298828125}}}}
+{
+    "Ship Engineer [Lv. 1275]": {
+        "CurrentIndex": 15,
+        "MinLevel": 1049,
+        "MaxLevel": 1074,
+        "Quest": {
+            "QuestName": "ShipQuest1",
+            "QuestData": 2,
+            "QuestNameMenu": "Ship Engineer",
+            "Pos": {
+                "Y": 125.05709838867188,
+                "X": 1038.674560546875,
+                "Z": 32911.34765625
+            }
+        },
+        "Enemies": {
+            "Name": "Ship Engineer [Lv. 1275]",
+            "Pos": {
+                "Y": 40.44286346435547,
+                "X": 862.9854125976563,
+                "Z": 32867.94921875
+            }
+        }
+    },
+    "Winter Warrior [Lv. 1050]": {
+        "CurrentIndex": 9,
+        "MinLevel": 899,
+        "MaxLevel": 924,
+        "Quest": {
+            "QuestName": "SnowMountainQuest",
+            "QuestData": 2,
+            "QuestNameMenu": "Winter Warrior",
+            "Pos": {
+                "Y": 401.4220275878906,
+                "X": 605.6705322265625,
+                "Z": -5370.10107421875
+            }
+        },
+        "Enemies": {
+            "Name": "Winter Warrior [Lv. 1050]",
+            "Pos": {
+                "Y": 461.108154296875,
+                "X": 1240.86279296875,
+                "Z": -5191.10400390625
+            }
+        }
+    },
+    "Ship Deckhand [Lv. 1250]": {
+        "CurrentIndex": 14,
+        "MinLevel": 1024,
+        "MaxLevel": 1049,
+        "Quest": {
+            "QuestName": "ShipQuest1",
+            "QuestData": 1,
+            "QuestNameMenu": "Ship Deckhand",
+            "Pos": {
+                "Y": 125.05709838867188,
+                "X": 1038.674560546875,
+                "Z": 32911.34765625
+            }
+        },
+        "Enemies": {
+            "Name": "Ship Deckhand [Lv. 1250]",
+            "Pos": {
+                "Y": 125.05711364746094,
+                "X": 1215.140625,
+                "Z": 33050.71875
+            }
+        }
+    },
+    "Mercenary [Lv. 725]": {
+        "CurrentIndex": 2,
+        "MinLevel": 724,
+        "MaxLevel": 749,
+        "Quest": {
+            "QuestName": "Area1Quest",
+            "QuestData": 2,
+            "QuestNameMenu": "Mercenary",
+            "Pos": {
+                "Y": 73.00558471679688,
+                "X": -424.080078125,
+                "Z": 1836.9158935546876
+            }
+        },
+        "Enemies": {
+            "Name": "Mercenary [Lv. 725]",
+            "Pos": {
+                "Y": 80.95467376708985,
+                "X": -938.497314453125,
+                "Z": 1443.986083984375
+            }
+        }
+    },
+    "Swan Pirate [Lv. 775]": {
+        "CurrentIndex": 3,
+        "MinLevel": 749,
+        "MaxLevel": 774,
+        "Quest": {
+            "QuestName": "Area2Quest",
+            "QuestData": 1,
+            "QuestNameMenu": "Swan Pirate",
+            "Pos": {
+                "Y": 73.1055908203125,
+                "X": 632.6986083984375,
+                "Z": 918.6663208007813
+            }
+        },
+        "Enemies": {
+            "Name": "Swan Pirate [Lv. 775]",
+            "Pos": {
+                "Y": 141.3094940185547,
+                "X": 967.2332763671875,
+                "Z": 1210.0638427734376
+            }
+        }
+    },
+    "Marine Lieutenant [Lv. 875]": {
+        "CurrentIndex": 4,
+        "MinLevel": 774,
+        "MaxLevel": 799,
+        "Quest": {
+            "QuestName": "MarineQuest3",
+            "QuestData": 1,
+            "QuestNameMenu": "Marine Lieutenant.",
+            "Pos": {
+                "Y": 73.01610565185547,
+                "X": -2443.04638671875,
+                "Z": -3220.30224609375
+            }
+        },
+        "Enemies": {
+            "Name": "Marine Lieutenant [Lv. 875]",
+            "Pos": {
+                "Y": 72.96614074707031,
+                "X": -2967.007568359375,
+                "Z": -2972.747802734375
+            }
+        }
+    },
+    "Sea Soldier [Lv. 1425]": {
+        "CurrentIndex": 20,
+        "MinLevel": 1174,
+        "MaxLevel": 1199,
+        "Quest": {
+            "QuestName": "ForgottenQuest",
+            "QuestData": 1,
+            "QuestNameMenu": "Sea Soldier",
+            "Pos": {
+                "Y": 236.84628295898438,
+                "X": -3053.973388671875,
+                "Z": -10146.1484375
+            }
+        },
+        "Enemies": {
+            "Name": "Sea Soldier [Lv. 1425]",
+            "Pos": {
+                "Y": 29.540367126464845,
+                "X": -3026.54833984375,
+                "Z": -9758.7431640625
+            }
+        }
+    },
+    "Zombie [Lv. 950]": {
+        "CurrentIndex": 6,
+        "MinLevel": 824,
+        "MaxLevel": 849,
+        "Quest": {
+            "QuestName": "ZombieQuest",
+            "QuestData": 1,
+            "QuestNameMenu": "Zombie",
+            "Pos": {
+                "Y": 48.515167236328128,
+                "X": -5492.7939453125,
+                "Z": -793.7105712890625
+            }
+        },
+        "Enemies": {
+            "Name": "Zombie [Lv. 950]",
+            "Pos": {
+                "Y": 126.03199768066406,
+                "X": -5736.03515625,
+                "Z": -728.0261840820313
+            }
+        }
+    },
+    "Ship Steward [Lv. 1300]": {
+        "CurrentIndex": 16,
+        "MinLevel": 1074,
+        "MaxLevel": 1099,
+        "Quest": {
+            "QuestName": "ShipQuest2",
+            "QuestData": 1,
+            "QuestNameMenu": "Ship Steward",
+            "Pos": {
+                "Y": 125.05712127685547,
+                "X": 969.268310546875,
+                "Z": 33245.26953125
+            }
+        },
+        "Enemies": {
+            "Name": "Ship Steward [Lv. 1300]",
+            "Pos": {
+                "Y": 129.5559844970703,
+                "X": 923.6115112304688,
+                "Z": 33442.3125
+            }
+        }
+    },
+    "Marine Captain [Lv. 900]": {
+        "CurrentIndex": 5,
+        "MinLevel": 799,
+        "MaxLevel": 824,
+        "Quest": {
+            "QuestName": "MarineQuest3",
+            "QuestData": 2,
+            "QuestNameMenu": "Marine Captain",
+            "Pos": {
+                "Y": 73.01610565185547,
+                "X": -2443.04638671875,
+                "Z": -3220.30224609375
+            }
+        },
+        "Enemies": {
+            "Name": "Marine Captain [Lv. 900]",
+            "Pos": {
+                "Y": 93.37608337402344,
+                "X": -1818.364013671875,
+                "Z": -3203.577880859375
+            }
+        }
+    },
+    "Snow Lurker [Lv. 1375]": {
+        "CurrentIndex": 19,
+        "MinLevel": 1149,
+        "MaxLevel": 1174,
+        "Quest": {
+            "QuestName": "FrostQuest",
+            "QuestData": 2,
+            "QuestNameMenu": "Snow Lurker",
+            "Pos": {
+                "Y": 28.21177864074707,
+                "X": 5669.43505859375,
+                "Z": -6482.60107421875
+            }
+        },
+        "Enemies": {
+            "Name": "Snow Lurker [Lv. 1375]",
+            "Pos": {
+                "Y": 60.5209846496582,
+                "X": 5516.275390625,
+                "Z": -6830.82763671875
+            }
+        }
+    },
+    "Arctic Warrior [Lv. 1350]": {
+        "CurrentIndex": 18,
+        "MinLevel": 1124,
+        "MaxLevel": 1149,
+        "Quest": {
+            "QuestName": "FrostQuest",
+            "QuestData": 1,
+            "QuestNameMenu": "Arctic Warrior",
+            "Pos": {
+                "Y": 28.21177864074707,
+                "X": 5669.43505859375,
+                "Z": -6482.60107421875
+            }
+        },
+        "Enemies": {
+            "Name": "Arctic Warrior [Lv. 1350]",
+            "Pos": {
+                "Y": 57.072784423828128,
+                "X": 5995.92919921875,
+                "Z": -6184.9892578125
+            }
+        }
+    },
+    "Lava Pirate [Lv. 1200]": {
+        "CurrentIndex": 13,
+        "MinLevel": 999,
+        "MaxLevel": 1024,
+        "Quest": {
+            "QuestName": "FireSideQuest",
+            "QuestData": 2,
+            "QuestNameMenu": "Lava Pirate",
+            "Pos": {
+                "Y": 15.951759338378907,
+                "X": -5429.68359375,
+                "Z": -5296.7021484375
+            }
+        },
+        "Enemies": {
+            "Name": "Lava Pirate [Lv. 1200]",
+            "Pos": {
+                "Y": 16.148508071899415,
+                "X": -5075.19580078125,
+                "Z": -4814.361328125
+            }
+        }
+    },
+    "Ship Officer [Lv. 1325]": {
+        "CurrentIndex": 17,
+        "MinLevel": 1099,
+        "MaxLevel": 1124,
+        "Quest": {
+            "QuestName": "ShipQuest2",
+            "QuestData": 2,
+            "QuestNameMenu": "Ship Officer",
+            "Pos": {
+                "Y": 125.05712127685547,
+                "X": 969.268310546875,
+                "Z": 33245.26953125
+            }
+        },
+        "Enemies": {
+            "Name": "Ship Officer [Lv. 1325]",
+            "Pos": {
+                "Y": 181.0577392578125,
+                "X": 882.2755737304688,
+                "Z": 33354.1796875
+            }
+        }
+    },
+    "Lab Subordinate [Lv. 1100]": {
+        "CurrentIndex": 10,
+        "MinLevel": 924,
+        "MaxLevel": 949,
+        "Quest": {
+            "QuestName": "IceSideQuest",
+            "QuestData": 1,
+            "QuestNameMenu": "Lab Subordinate",
+            "Pos": {
+                "Y": 15.986802101135254,
+                "X": -6060.10693359375,
+                "Z": -4904.78759765625
+            }
+        },
+        "Enemies": {
+            "Name": "Lab Subordinate [Lv. 1100]",
+            "Pos": {
+                "Y": 48.43719482421875,
+                "X": -5833.6337890625,
+                "Z": -4510.44580078125
+            }
+        }
+    },
+    "Horned Warrior [Lv. 1125]": {
+        "CurrentIndex": 11,
+        "MinLevel": 949,
+        "MaxLevel": 974,
+        "Quest": {
+            "QuestName": "IceSideQuest",
+            "QuestData": 2,
+            "QuestNameMenu": "Horned Warrior",
+            "Pos": {
+                "Y": 15.986802101135254,
+                "X": -6060.10693359375,
+                "Z": -4904.78759765625
+            }
+        },
+        "Enemies": {
+            "Name": "Horned Warrior [Lv. 1125]",
+            "Pos": {
+                "Y": 42.7079963684082,
+                "X": -6168.1591796875,
+                "Z": -6020.96826171875
+            }
+        }
+    },
+    "Raider [Lv. 700]": {
+        "CurrentIndex": 1,
+        "MinLevel": 699,
+        "MaxLevel": 724,
+        "Quest": {
+            "QuestName": "Area1Quest",
+            "QuestData": 1,
+            "QuestNameMenu": "Raider",
+            "Pos": {
+                "Y": 73.00558471679688,
+                "X": -424.080078125,
+                "Z": 1836.9158935546876
+            }
+        },
+        "Enemies": {
+            "Name": "Raider [Lv. 700]",
+            "Pos": {
+                "Y": 96.68450927734375,
+                "X": -141.8724365234375,
+                "Z": 2491.015380859375
+            }
+        }
+    },
+    "Magma Ninja [Lv. 1175]": {
+        "CurrentIndex": 12,
+        "MinLevel": 974,
+        "MaxLevel": 999,
+        "Quest": {
+            "QuestName": "FireSideQuest",
+            "QuestData": 1,
+            "QuestNameMenu": "Magma Ninja",
+            "Pos": {
+                "Y": 15.951759338378907,
+                "X": -5429.68359375,
+                "Z": -5296.7021484375
+            }
+        },
+        "Enemies": {
+            "Name": "Magma Ninja [Lv. 1175]",
+            "Pos": {
+                "Y": 22.862367630004884,
+                "X": -5404.8544921875,
+                "Z": -5896.09033203125
+            }
+        }
+    },
+    "Snow Trooper [Lv. 1000]": {
+        "CurrentIndex": 8,
+        "MinLevel": 874,
+        "MaxLevel": 899,
+        "Quest": {
+            "QuestName": "SnowMountainQuest",
+            "QuestData": 1,
+            "QuestNameMenu": "Snow Trooper",
+            "Pos": {
+                "Y": 401.4220275878906,
+                "X": 605.6705322265625,
+                "Z": -5370.10107421875
+            }
+        },
+        "Enemies": {
+            "Name": "Snow Trooper [Lv. 1000]",
+            "Pos": {
+                "Y": 401.4220275878906,
+                "X": 544.2079467773438,
+                "Z": -5309.0888671875
+            }
+        }
+    },
+    "Vampire [Lv. 975]": {
+        "CurrentIndex": 7,
+        "MinLevel": 849,
+        "MaxLevel": 874,
+        "Quest": {
+            "QuestName": "ZombieQuest",
+            "QuestData": 2,
+            "QuestNameMenu": "Vampire",
+            "Pos": {
+                "Y": 48.515167236328128,
+                "X": -5492.7939453125,
+                "Z": -793.7105712890625
+            }
+        },
+        "Enemies": {
+            "Name": "Vampire [Lv. 975]",
+            "Pos": {
+                "Y": 6.402701377868652,
+                "X": -6028.23583984375,
+                "Z": -1295.456298828125
+            }
+        }
+    }
+}
