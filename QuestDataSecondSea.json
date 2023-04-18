@@ -25,7 +25,7 @@
     "Winter Warrior [Lv. 1050]": {
         "CurrentIndex": 9,
         "MinLevel": 1049,
-        "MaxLevel": 1074,
+        "MaxLevel": 1099,
         "Quest": {
             "QuestName": "SnowMountainQuest",
             "QuestData": 2,
@@ -48,7 +48,7 @@
     "Ship Deckhand [Lv. 1250]": {
         "CurrentIndex": 14,
         "MinLevel": 1249,
-        "MaxLevel": 1274,
+        "MaxLevel": 1299,
         "Quest": {
             "QuestName": "ShipQuest1",
             "QuestData": 1,
@@ -71,7 +71,7 @@
     "Mercenary [Lv. 725]": {
         "CurrentIndex": 2,
         "MinLevel": 724,
-        "MaxLevel": 749,
+        "MaxLevel": 774,
         "Quest": {
             "QuestName": "Area1Quest",
             "QuestData": 2,
@@ -94,7 +94,7 @@
     "Swan Pirate [Lv. 775]": {
         "CurrentIndex": 3,
         "MinLevel": 774,
-        "MaxLevel": 799,
+        "MaxLevel": 824,
         "Quest": {
             "QuestName": "Area2Quest",
             "QuestData": 1,
@@ -117,7 +117,7 @@
     "Marine Lieutenant [Lv. 875]": {
         "CurrentIndex": 4,
         "MinLevel": 824,
-        "MaxLevel": 849,
+        "MaxLevel": 874,
         "Quest": {
             "QuestName": "MarineQuest3",
             "QuestData": 1,
@@ -140,7 +140,7 @@
     "Sea Soldier [Lv. 1425]": {
         "CurrentIndex": 20,
         "MinLevel": 1424,
-        "MaxLevel": 1449,
+        "MaxLevel": 1474,
         "Quest": {
             "QuestName": "ForgottenQuest",
             "QuestData": 1,
@@ -163,7 +163,7 @@
     "Zombie [Lv. 950]": {
         "CurrentIndex": 6,
         "MinLevel": 949,
-        "MaxLevel": 974,
+        "MaxLevel": 999,
         "Quest": {
             "QuestName": "ZombieQuest",
             "QuestData": 1,
@@ -324,7 +324,7 @@
     "Lab Subordinate [Lv. 1100]": {
         "CurrentIndex": 10,
         "MinLevel": 1099,
-        "MaxLevel": 1124,
+        "MaxLevel": 1149,
         "Quest": {
             "QuestName": "IceSideQuest",
             "QuestData": 1,
@@ -393,7 +393,7 @@
     "Magma Ninja [Lv. 1175]": {
         "CurrentIndex": 12,
         "MinLevel": 1174,
-        "MaxLevel": 1199,
+        "MaxLevel": 1224,
         "Quest": {
             "QuestName": "FireSideQuest",
             "QuestData": 1,
