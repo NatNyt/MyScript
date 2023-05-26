@@ -219,6 +219,6 @@ local pbag = ({...})[1]
         if typeof(queue_teleport) == "function" then 
             queue_teleport('loadstring(game:HttpGet(c))(pbag)')
         end
-        loadstring(game:HttpGet(c))(pbag)
+        print(pbag)
     end
 )
