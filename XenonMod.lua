@@ -19,7 +19,7 @@ local queue_teleport = (function()
     end
 end)()
 if typeof(queue_teleport) == "function" then 
-     queue_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua')){" .. args .. "}")
+     queue_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/NatNyt/MyScript/main/XenonMod.lua')){" .. args .. "}")
 end
 
 loadstring("loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua')){" .. args .. "}")()
