@@ -2610,3 +2610,6 @@ for a,j  in pairs(game:GetService("CoreGui"):GetChildren()) do
 	end
     end
 end
+getgenv().CraftHub["Ultra Fast Attack"] = true 
+getgenv().CraftHub["Attack Duration"] = 30
+getgenv().CraftHub["Attack Cooldown"] = 100
