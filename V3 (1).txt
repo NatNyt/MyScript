@@ -1951,6 +1951,9 @@ TeleportTab:AddToggle({
         setValue("Teleport Island", v)    
     end
 })
+if getValue("Distance Bring Mob") == nil then
+	setValue("Distance Bring Mob", 350)
+end
 spawn(function() 
     while true do task.wait() 
         if getValue("Teleport Island") then 
@@ -2383,7 +2386,7 @@ spawn(function()
                                             pcall(function() 
                                             for w, k in pairs(game.Workspace.Enemies:GetChildren()) do 
                                                     if k:FindFirstChild("Humanoid") and k:FindFirstChild("HumanoidRootPart") and k.Humanoid.Health > 0 and (k.HumanoidRootPart.Position-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= 1000 then 
-                                                        if  isnetworkowner(v.HumanoidRootPart) and (v.HumanoidRootPart.Position-PosMonAura.Position).magnitude <= 350 then 
+                                                        if  isnetworkowner(v.HumanoidRootPart) and (v.HumanoidRootPart.Position-PosMonAura.Position).magnitude <= getValue("Distance Bring Mob") then 
                                                             k.Head.CanCollide = false
                                                             k.Humanoid.Sit = false
                                                             k.HumanoidRootPart.CanCollide = false
