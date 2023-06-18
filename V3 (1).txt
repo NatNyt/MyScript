@@ -1886,7 +1886,71 @@ spawn(function() --Auto Farm Function
         end
     end
 end)
+if game.CoreGui:FindFirstChild("PepsiUi") then
+    game.CoreGui:FindFirstChild("PepsiUi"):Destroy()
+end
 
+local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
+local Wait = library.subs.Wait 
+
+
+local PepsiUi = library:CreateWindow({
+    Name = "KAI HUB",
+    Theme = {
+        Image = "rbxassetid://7483871523",
+        Info = "Info",
+        Background = {
+            Asset = "rbxassetid://5553946656"
+        }
+    }
+})
+
+local Page = PepsiUi:CreateTab({
+    Name = "Main"
+})
+
+
+local TeleportList = PepsiUi:CreateTab({
+    Name = "Teleport"
+})
+
+
+
+
+
+
+local GrindTab = Page:CreateSection({
+    Name = "Auto Grind & etc", -- ชื่อ
+    Side = "Left" -- ตำแหน่ง Left/Right
+})
+
+local MiscTab = Page:CreateSection({
+    Name = "Settings ", -- ชื่อ
+    Side = "Right" -- ตำแหน่ง Left/Right
+})
+local EvoRaceTab = Page:CreateSection({
+    Name = "Evo Race ", -- ชื่อ
+    Side = "Left" -- ตำแหน่ง Left/Right
+})
+local TeleportTab = TeleportList:CreateSection({
+    Name = "Teleport Island", -- ชื่อ
+    Side = "Left" -- ตำแหน่ง Left/Right
+})
+TeleportTab:AddDropdown({
+    Name = "Select Island",
+    Value = TeleportListReqiurement['Island'][game.PlaceId]['List']()[1],
+    List = TeleportListReqiurement['Island'][game.PlaceId]['List'](),
+    Callback = function(v)
+        setValue("Select Island", v)    
+    end
+})
+TeleportTab:AddToggle({
+    Name = "Teleport Island",
+    Value = getValue("Teleport Island"),
+    Callback = function(v)
+        setValue("Teleport Island", v)    
+    end
+})
 spawn(function() 
     while true do task.wait() 
         if getValue("Teleport Island") then 
@@ -1896,6 +1960,49 @@ spawn(function()
         end
     end
 end)
+GrindTab:AddToggle({
+    Name = "Auto Grind Level",
+	Value = getValue("Auto Farm Level"), -- ปรับค่าToggle true/false or Config
+    Callback = function(value)
+        setValue("Auto Farm Level", value)
+    end
+})
+
+GrindTab:AddToggle({
+    Name = "Mob Aura",
+	Value = getValue("Mob Aura"), -- ปรับค่าToggle true/false or Config
+    Callback = function(value)
+        setValue("Mob Aura", value)
+    end
+})
+local MobPosLabel = GrindTab:AddLabel({
+    Name = "Position : null"
+})
+GrindTab:AddButton({
+    Name = "Set Position Mob Aura",
+    Callback = function()
+        MobPosLabel:Set("Position : " .. tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.Position))
+        MobAuraPos = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
+    end
+})
+local RaceInfo = EvoRaceTab:AddLabel({
+    Name = "Race : Unknow"
+})
+local RaceV2 = EvoRaceTab:AddLabel({
+    Name = "Race V (2) : ❌"
+})
+local RaceV3 = EvoRaceTab:AddLabel({
+    Name = "Race V (3) : ❌"
+})
+EvoRaceTab:AddLabel({
+    Name = "Race Support"
+})
+EvoRaceTab:AddLabel({
+    Name = "Human ✅"
+})
+EvoRaceTab:AddLabel({
+    Name = "Mink ✅"
+})
 local function HttpRequest(...) 
     local args = {...}
     local status, result = pcall(function() 
@@ -1984,7 +2091,27 @@ spawn(function()
 		end
 	end
 end)
+if RaceCheck then 
+    RaceInfo:Set("Race : " .. RaceCheck)
+    if RaceCheck == "Mink" then 
+        local ChestCountLabel = EvoRaceTab:AddLabel({
+            Name = "Chest : " .. tostring(ChestCount)
+        })
+        spawn(function() 
+            while true do wait()
+                ChestCountLabel:Set("Chest : " .. tostring(ChestCount))
+            end            
+        end)
+    end
+end
 setValue("Auto Evo Race", true)
+EvoRaceTab:AddToggle({
+    Name = "Auto Evo Race (3)",
+	Value = getValue("Auto Evo Race"), -- ปรับค่าToggle true/false or Config
+    Callback = function(value)
+        setValue("Auto Evo Race", value)
+    end
+})
 function touchInterest(Part)
     pcall(function() 
         firetouchinterest(Part, game.Players.LocalPlayer.Character.HumanoidRootPart, 0)
@@ -2298,6 +2425,12 @@ spawn(function()
         end
     end
 end)
+RaceV3:AddButton({
+Name = "Random Race",
+Callback = function()
+    game.ReplicatedStorage.Remotes.CommF_:InvokeServer("BlackbeardReward", "Reroll", "2")
+end
+})
 spawn(function()
    while wait() do
         pcall(function()
@@ -2356,3 +2489,124 @@ spawn(function()
     end)
 end)
 
+local Item = {}
+for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
+    if v:IsA("Tool") then 
+        table.insert(Item, v.Name)    
+    end
+end
+for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do 
+    if v:IsA("Tool") then 
+        table.insert(Item, v.Name)    
+    end 
+end
+local WeaponList = MiscTab:AddDropdown({
+	Name = "Select Weapon",
+	Value = getValue("Weapon"), 
+	List = Item,
+	Callback = function(value)
+		setValue("Weapon", value)
+	end
+})
+MiscTab:AddButton({
+Name = "Refresh Weapon",
+Callback = function()
+    table.clear(Item)
+    for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
+    if v:IsA("Tool") then 
+        table.insert(Item, v.Name)    
+    end
+    end
+    for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do 
+        if v:IsA("Tool") then 
+            table.insert(Item, v.Name)    
+        end 
+    end
+    WeaponList:Set(Item)
+end
+})
+MiscTab:AddToggle({
+    Name = "Fast Attack",
+	Value = getValue("Fast Attack"), 
+    Callback = function(value)
+        setValue("Fast Attack", value)
+    end
+})
+MiscTab:AddToggle({
+    Name = "Ultra Fast Attack",
+	Value = getValue("Ultra Fast Attack"), 
+    Callback = function(value)
+        setValue("Ultra Fast Attack", value)
+    end
+})
+MiscTab:AddSlider({
+    Name = "Attack Duration",
+    Value = getValue("Attack Duration"),
+    Min = 0,
+    Max = 30,
+    Format = function(Value) 
+        return "Attack Duration : " .. tonumber(Value)
+    end,
+    Callback = function(Value)
+        setValue("Attack Duration", tonumber(Value))
+    end
+})
+
+MiscTab:AddSlider({
+    Name = "Attack Cooldown",
+    Value = getValue("Attack Cooldown", 5),
+    Min = 0,
+    Max = 100,
+    Format = function (Value) 
+        return "Attack Cooldown : " .. tostring(Value / 100) .. " s"    
+    end,
+    Callback = function(Value)
+        setValue("Attack Cooldown", tonumber(Value))
+    end
+})
+MiscTab:AddSlider({
+    Name = "Distance Mob Aura",
+    Value = getValue("Distance Mob Aura", 500),
+    Min = 0,
+    Max = 1000,
+    Format = function (Value) 
+        return "Distance Mob Aura : " .. tostring(Value) .. " m"    
+    end,
+    Callback = function(Value)
+        setValue("Distance Mob Aura", tonumber(Value))
+    end
+})
+
+
+
+for a,j  in pairs(game:GetService("CoreGui"):GetChildren()) do 
+    if j:FindFirstChild("main") then 
+        for i, v in pairs(j:GetDescendants()) do 
+        if v:IsA("TextLabel") or v:IsA('TextButton') or v:IsA("ImageLabel") then
+            spawn(function()
+    					while task.wait() do
+    						pcall( function() 
+    						    local t = 5; 
+    						local hue = tick() % t / t
+    						local colorrr = Color3.fromHSV(hue, 1, 1)
+    						v.TextColor3 = colorrr 
+    						   end)
+    					end
+            end)    
+    	    if v.Name == "sliderColored" then 
+    	        spawn(function()
+    					pcall(function() 
+    					    while task.wait() do
+    						local t = 5; 
+    						local hue = tick() % t / t
+    						local colorrr = Color3.fromHSV(hue, 1, 1)
+    						v.ImageColor3 = colorrr
+    						v.BackgroundColor3 = colorrr
+    					end    
+    					end)
+    	        end)  
+    	    end
+        end
+	end
+    end
+end
