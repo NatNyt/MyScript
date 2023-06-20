@@ -843,7 +843,7 @@ function getAllBladeHits(Sizes)
 	local Enemies = game:GetService("Workspace").Enemies:GetChildren()
     if getValue("Fast Attack") or getValue("Ultra Fast Attack") then 
         pcall(function() 
-             for i=1,getValue("Attack Duration") do 
+             for i=1,2 do 
                 for i=1,#Enemies do local v = Enemies[i]
             		local Human = v:FindFirstChildOfClass("Humanoid")
             		if Human and Human.RootPart and Human.Health > 0 and Client:DistanceFromCharacter(Human.RootPart.Position) < Sizes+5 and (Human.RootPart.Position - Client.Character.HumanoidRootPart.Position).Magnitude <= 300  then
@@ -933,64 +933,28 @@ function AttackPlayers()
 end
 --[Function Attack] 
 
-spawn(function() 
+local CameraShakerR = require(game.ReplicatedStorage.Util.CameraShaker)
+spawn(function()
     game:GetService("RunService").Stepped:Connect(function()
-		local ac = CombatFrameworkR.activeController
-		if ac and ac.equipped then
-			if __Attack  then 
-				if getValue("Ultra Fast Attack") then 
-				    AttackFunction()				
-                    if (tick() - cooldownfastattack) > 2 then 
-                        cooldownfastattack = tick()
-                         if getValue("Attack Cooldown") then 
-                            wait(setValue("Attack Cooldown") / 100)
-                        else 
-                            wait(.7)
-                        end
-                    end
+        pcall(function()
+            CombatFrameworkR.activeController.hitboxMagnitude = 180
+            CameraShakerR:Stop()
+                if __Attack then
+                    CombatFrameworkR.activeController.timeToNextAttack = -math.huge
+                    CombatFrameworkR.activeController.attacking = false
+                    CombatFrameworkR.activeController.increment = 3
+                    CombatFrameworkR.activeController.blocking = false
+                    CombatFrameworkR.activeController.timeToNextBlock = -math.huge
                 end
-			end
-        end
-	end)
-end)
-spawn(function() 
-   while true do 
-    wait(.1) 
-    local ac = CombatFrameworkR.activeController
-		if ac and ac.equipped then
-			if __Attack  then 
-				if not getValue("Fast Attack") then 
-                        AttackFunction()				
-                    if (tick() - cooldownfastattack) > 3 then 
-                        cooldownfastattack = tick()
-                        wait(.8)
-                    end
+        end)
+        pcall(function()
+                if __Attack then
+                    CombatFrameworkR.activeController:attack()
                 end
-			end
-        end
-   end
+        end)
+    end)
 end)
-spawn(function() 
-   while true do 
-    task.wait()
-    local ac = CombatFrameworkR.activeController
-		if ac and ac.equipped then
-			if __Attack  then 
-				if  getValue("Fast Attack")  then 
-                    AttackFunction()				
-                    if (tick() - cooldownfastattack) > 3 then 
-                        cooldownfastattack = tick()
-                        if getValue("Attack Cooldown") then 
-                            wait(setValue("Attack Cooldown") / 100)
-                        else 
-                            wait(.7)
-                        end
-                    end
-                end
-			end
-        end
-   end
-end)
+
 -- Function NoClip
 spawn(function()
 	game:GetService("RunService").Stepped:Connect(function()
@@ -2139,27 +2103,6 @@ function findSkypiea()
 end
 
 spawn(function() 
-    game:GetService("RunService").Stepped:Connect(function() 
-        if getValue("Auto Evo Race") then
-            for i,v in pairs(game.Workspace.Enemies:GetChildren()) do
-                if getValue("Auto Evo Race") and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0  then
-                    if isnetworkowner(v.HumanoidRootPart) and (v.HumanoidRootPart.Position-getgenv().PosMonAuraV.Position).magnitude <= 350 then 
-                        v.Head.CanCollide = false
-                        v.Humanoid.Sit = false
-                        v.HumanoidRootPart.CanCollide = false
-                        v.HumanoidRootPart.CFrame = getgenv().PosMonAuraV
-                        v.Humanoid.JumpPower = 0
-                        v.Humanoid.WalkSpeed = 0
-                        v.HumanoidRootPart.CanCollide = false
-                        v.Humanoid:ChangeState(11)
-                        sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", math.huge)
-                    end
-                end
-            end
-        end
-    end)
-end)
-spawn(function() 
     while true do task.wait() 
         if getValue("Auto Evo Race") then 
             if not SecondSea then 
@@ -2401,6 +2344,9 @@ spawn(function()
                                             end)
                                         end)
                                     until not getValue("Auto Evo Race") or not v.Parent or v.Humanoid.Health <= 0
+                                    if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Flower 3") then 
+                                        break 
+                                    end
                                 end
                             end   
                         until  game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Flower 3") or game:GetService("Players").LocalPlayer.Character:FindFirstChild("Flower 3") or not getValue("Auto Evo Race")
